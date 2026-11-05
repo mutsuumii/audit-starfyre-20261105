@@ -1,0 +1,19 @@
+{
+  "source_repo": "sparckles/starfyre",
+  "source_url": "https://github.com/sparckles/starfyre",
+  "audit_date": "2026-11-05T05:34:05.821457",
+  "findings_count": 1,
+  "severity_breakdown": {
+    "CRITICAL": 1
+  },
+  "findings": [
+    {
+      "id": "PY-EVAL-001",
+      "name": "Code injection via eval/exec",
+      "severity": "CRITICAL",
+      "cwe": "CWE-95",
+      "file": "starfyre/js/store.py",
+      "line": 25
+    }
+  ]
+}
